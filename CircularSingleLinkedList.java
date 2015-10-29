@@ -1,4 +1,3 @@
-package Latihan;
 public class CircularSingleLinkedList {
     class Node {
         Object Element;
@@ -159,30 +158,5 @@ public class CircularSingleLinkedList {
         } else {
             System.out.println("null");
         }
-    }
-
-    /**
-     * main this app
-     * @param args
-     */
-    public static void main(String[] args) {
-        System.out.println("latihan 7 & Tugas 7.1");
-        CircularSingleLinkedList CSLL = new CircularSingleLinkedList();
-        CSLL.addFirst(50);
-        CSLL.addFirst(60);
-        CSLL.addFirst(70);
-        CSLL.addFirst(8);
-        CSLL.addFirst(9);
-        CSLL.addFirst(90);
-        CSLL.addFirst(19);
-        CSLL.print("CSLL Asli");
-        CSLL.removeFirst();
-        CSLL.print("setelah remove First");
-        CSLL.removeLast();
-        CSLL.print("setelah remove last");
-        CSLL.remove(8);
-        CSLL.print("CSLL setelah 8 dihapus");
-        CSLL.remove(90);
-        CSLL.print("CSLL setelah 90 dihapus");
     }
 }
